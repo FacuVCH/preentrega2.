@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+      --tipografia:  "Ungai"
+}
+
+h1{
+    font-size: 55px;
+}
+
+body{
+    font-family: var(--tipografia);
+    
+
+}
+
+header .logo{
+    margin: 0;
+    padding-left: 115px;
+    font-size: 70px;
+}
+
+header{
+    max-width: 1400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 70px;
+    align-items: center;
+    margin: auto;
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+header a{
+    height: 15%;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    padding-right: 50px;
+}
+
+header a:hover{
+    color: rgb(255, 48, 117);
+}
+
+#Inicio{
+    font-size: 10px;
+    display: flex;
+    align-items: left;
+    justify-content: end;
+    text-align: left;
+    flex-direction: column;
+    height: 300px;
+    background-image: url("../img/fondomain.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.coloracento{
+        color: rgb(255, 48, 117);
+}
+
+#QuienesSomos{
+        background-image: url(../img/quienessomos.png);
+        height: 300px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        font-size: 10px;
+        display: flex;
+        align-items: right;
+        justify-content: end;
+        text-align: right;
+        padding-top: 10px;
+}
+
+p{
+    font-size: 9px;
+    padding-top: 150px;
+}
+
+#conocenos{
+    background-color: rgb(255, 48, 117);
+}
+
+#TakeAway{
+    background-image: url(../img/TakeAway.png);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    display: flex;
+    align-items: left;
+    justify-content: end;
+    text-align: left;
+    padding-top: 10px;
+}
+
+#ubi{
+    font-size: 10px;
+    color: rgb(255, 48, 117);
+    background-color: white;
+    align-items: center;
+    padding-top: 1px;
+}
+
+p.tap{
+    font-weight: bold;
+    color: black;
+}
+
+#combos{
+    background-image: url(../img/Combo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 300px;
+}
+
+p.cb{
+    background-image: url(../img/combo2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    height: 1px;
+    display: flex;
+    text-align: center;
+    
+}
+
+#productos{
+    padding-top: 20px;
+    display: flex;
+    text-align: left;
+    align-items: center;
+    justify-content: left;
+}
+
+#npd{
+    font-size: 5px;
+}
