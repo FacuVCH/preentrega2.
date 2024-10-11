@@ -82,12 +82,12 @@ header a:hover{
         align-items: right;
         justify-content: end;
         text-align: right;
-        padding-top: 10px;
+        padding-top: 1%;
 }
 
 p{
-    font-size: 9px;
-    padding-top: 150px;
+    font-size: 10px;
+    padding-top: 30%;
 }
 
 #conocenos{
@@ -105,7 +105,7 @@ p{
     align-items: left;
     justify-content: end;
     text-align: left;
-    padding-top: 10px;
+    padding-top: 1%;
 }
 
 #ubi{
@@ -141,13 +141,22 @@ p.cb{
 }
 
 #productos{
-    padding-top: 20px;
+    padding-top: 1%;
     display: flex;
     text-align: left;
     align-items: center;
     justify-content: left;
 }
 
-#npd{
-    font-size: 5px;
+#prd{
+    background-image: url(../img/productos.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    height: 100px;
+    display: flex;
+    text-align: center;
+    padding-top: 500px;
+    font-size: 10px;
 }
+
